@@ -1,0 +1,286 @@
+*{
+	font-family:'Ubuntu','Rationale','Roboto','Montserrat','Gloria Hallelujah';
+  /*border:1px solid #00A5E0;*/
+  font-size: 1em;
+  line-height:1.5em;
+  font-color:#5C5EDC;
+  /*letter-spacing:2px; */
+  max-width: 100%;
+}
+
+body {
+  background-color:#252830;
+  max-width: 100%;
+}
+
+nav{
+  position: fixed;
+  background-color:transparent;
+  z-index: 999;
+  height: 10%;
+}
+
+.nav-wrapper {
+  background-color:transparent;
+  position: fixed;
+  width:100%;
+  font-size: 1.3em;
+}
+
+nav ul li a{
+  margin: 15px 5px 5px 5px;
+  font-size: 1.0em;
+}
+
+nav a:hover{
+color:orange;
+}
+
+#resume{
+  position: absolute;
+  /*display: inline-block;*/
+  margin: 10px 10px;
+  padding:5px 5px;
+  background-color: rgba(0,0,200,0.3);
+  z-index: 9999;
+}
+.main_box{
+  position: relative;
+  min-height: 100%;
+  min-width: 100%;
+  margin-top: 5%;
+}
+
+.left_card{
+  position: relative;
+}
+
+.course{
+  position: relative;
+  float: center;
+  width: 100%;
+}
+
+.myLeft{
+  position: relative;
+  background-color: #252830;
+  max-width: 100%;
+  /*border-right: 0.5px solid white;*/
+}
+
+.myLeft span{
+  font-size: 1em;
+  font-family: 'Ubuntu','Roboto';
+  letter-spacing: 1.5px;
+  font-weight: 400;
+}
+
+.myLeft h6{
+  font-family: 'Ubuntu','Roboto';
+  font-weight: 200;
+}
+
+.skills{
+  position: relative;
+  float: center;
+  max-width: 100%;
+}
+
+.chip{
+  border-radius: 1px;
+  margin: 2px 1px;
+  opacity: 0.8;
+}
+.chip:hover{
+  opacity: 1;
+}
+
+.skills ul li{
+  display: inline-block;
+  font-size: 1em;
+  letter-spacing: 0.5px;
+  font-family: 'Ubuntu','Montserrat','Roboto','Gloria Hallelujah'; 
+  font-variant: small-caps;
+}
+
+.profiles ul{
+position: relative;
+width: 100%;
+margin-top: 2px;
+}
+
+.profiles ul li{
+  position: relative;
+  float: center;
+  display: inline-block;
+  margin-left: 5px;
+  margin-top: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+}
+
+.profiles img{
+  height: 24px;
+  width: 24px;
+}
+
+.dp img{
+  position: relative;
+  height: 200px;
+  width: 200px;
+  margin:25px 0px 10px 0px;
+  border-radius: 5px;
+}
+
+.myRight{
+  background-color:#252830;
+  height: 100%;
+}
+
+.laptop img{
+position: relative;
+height: 350px;
+margin: 2em 2em 2em;
+}
+
+.landing_page{
+position: relative;
+widows: 90%;
+float: center;
+height: 100%;
+}
+
+hr{
+  position: relative;
+  float: center;
+  height: 1px;
+  background-color:blue;
+  margin: 25px 10px 25px 5px;
+}
+
+.result{
+position: relative;
+float:center;
+margin-top: 1.5em;
+margin-bottom: 1.5em;
+}
+
+ .result_table{
+  font-size: 1.0em;
+  background-color:#24252A;
+  border:0.5px solid gray;
+  margin: 1.5em 0em;
+} 
+
+.result_table table{
+position: relative;
+float: center;
+margin: 1em 0em;
+}
+
+.work_exp{
+  margin: 2em 2em;
+}
+
+.jobs{
+ background-color: #24252A; 
+ padding: 10px 10px;
+ border-radius: 15px;
+}
+
+.jobs h5,p{  
+font-variant: small-caps;
+margin: 20px 5px;
+color: #1565C0;
+font-family:'Ubuntu','Roboto','Rationale';
+font-weight: bold;
+}
+
+.job-right-panel *{
+  font-size: 1em;
+  letter-spacing: 1px;
+  font-family: 'Ubuntu';
+}
+
+.project .card{
+  background-color: #24252A;
+}
+
+
+.project .card p{
+  max-height:50px;
+  min-height: 50px;
+  overflow-y: scroll;
+  /*padding-right: 16px;*/
+}
+
+.project .card ul li{
+  display: inline;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 10px;
+}
+
+.project .card .card-content span{
+  font-variant: small-caps;
+  color: #1565C0;
+  font-family:'Ubuntu','Roboto','Rationale';
+  font-weight: bold;
+  line-height: 1.7em;
+}
+
+.project img{
+width: 20px;
+height:20px;
+}
+
+.contact_section{
+  margin: 2em 2em;
+  float: center;
+}
+
+#contact_form{
+  padding: 2em 2em;
+  background-color: rgba(0,0,0,0);
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Material Icons'),
+        local('MaterialIcons-Regular'),
+        url(../icons/myfont.woff2) format('woff2'),
+        url(../icons/myfont.woff) format('woff'),
+        url(../icons/myfont.ttf) format('truetype');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+/*Custom Scroll Bar*/
+body::-webkit-scrollbar{
+  width:10px;
+  background-color:black;
+  }
+  body::-webkit-scrollbar-thumb{
+    border-radius:2px;
+    -webkit-box-shadow:inset 0 0 6px rgba(0,0,0,.3);
+    background-color:#5C5EDC;
+  }
