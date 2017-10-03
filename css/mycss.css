@@ -189,12 +189,19 @@ margin: 1em 0em;
  border-radius: 15px;
 }
 
-.jobs h5,p{  
+.job-left-panel *{  
 font-variant: small-caps;
-margin: 20px 5px;
 color: #1565C0;
+white-space: pre-wrap;
 font-family:'Ubuntu','Roboto','Rationale';
 font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+    .jobs h5,p{
+        position: relative;
+        text-align: center;
+    }
 }
 
 .job-right-panel *{
