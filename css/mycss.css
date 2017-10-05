@@ -130,7 +130,7 @@ margin-top: 2px;
   height: 200px;
   width: 200px;
   margin:25px 0px 10px 0px;
-  border-radius: 5px;
+  border-radius: 20px;
 }
 
 .myRight{
@@ -212,23 +212,29 @@ font-weight: bold;
 
 .project .card{
   background-color: #24252A;
+  margin-top: 10px;
+  padding-top: 20px; 
 }
 
 
 .project .card p{
   max-height:50px;
   min-height: 50px;
+  padding-right: 2px;
   overflow-y: scroll;
-  /*padding-right: 16px;*/
+  text-align: justify;
 }
 
 .project .card ul li{
   display: inline;
 }
 
+.project .card-title{
+font-size: 1.5rem;
+}
+
 ::-webkit-scrollbar {
-  width: 10px;
-  border-radius: 10px;
+  width: 0px;
 }
 
 .project .card .card-content span{
@@ -286,8 +292,9 @@ body::-webkit-scrollbar{
   width:10px;
   background-color:black;
   }
+
   body::-webkit-scrollbar-thumb{
     border-radius:2px;
     -webkit-box-shadow:inset 0 0 6px rgba(0,0,0,.3);
-    background-color:#5C5EDC;
+    background-color:#1565C0;
   }
