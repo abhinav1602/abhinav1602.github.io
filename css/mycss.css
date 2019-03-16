@@ -18,6 +18,7 @@ nav{
   background-color:transparent;
   z-index: 999;
   height: 10%;
+  box-shadow: none;
 }
 
 .nav-wrapper {
