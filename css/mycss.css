@@ -198,6 +198,10 @@ font-family:'Ubuntu','Roboto','Rationale';
 font-weight: bold;
 }
 
+.job-left-panel h5{
+  color: orange;
+}
+
 @media only screen and (max-width: 600px) {
     .jobs h5,p{
         position: relative;
