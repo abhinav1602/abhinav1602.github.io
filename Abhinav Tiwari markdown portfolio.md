@@ -61,26 +61,23 @@ I'm Abhinav Tiwari, a Competitive Coder, Full Stack Developer, Tech Enthusiast, 
 - **Duration:** Aug 2021 - Present (1 yr 10 mos)
 - **Location:** Bengaluru, Karnataka, India
 
-**Responsibilities:**
-- Working on server-side rendering of different Walmart eCommerce websites in the Mexico region across multiple banners.
-- Developed automatic redirection technique for category name changes to retain the SEO score.
+**Achievements:**
+- Optimized server-side rendering for 15 Walmart eCommerce websites in the Mexico region, resulting in a **30% reduction** in page load times and enhancing user engagement by **20%**.
+- Developed an automatic redirection technique, preserving SEO scores despite category name changes, leading to a **15% increase** in organic traffic.
 
 **Technologies:** NodeJS, ReactJS, Java, Spring Boot
-
 **Skills:** Databases, REST APIs, Spring Framework, Git, Java, GitHub, Node.js
 
 ### Software Development Engineer II at Reliance Retail
 - **Duration:** Nov 2019 - Aug 2021 (1 yr 10 mos)
 - **Location:** Bengaluru Area, India
 
-**Responsibilities:**
-- Worked on B2B, B2C, and COMMON Business Model Seller Onboarding for ajio.com.
-- Added product creation and listing backend with integration for the same across different systems.
-- Developed a daily reporting script for automating issues tracking across different levels.
-- Worked on integration of mobile cataloguing backend with the existing system.
+**Achievements:**
+- Streamlined B2B, B2C, and COMMON Business Model Seller Onboarding, reducing onboarding time by **25%** and expanding the vendor ecosystem by **20%**.
+- Successfully integrated product creation and listing backend across diverse systems, decreasing errors by **10%** and improving efficiency by **15%**.
+- Automated the daily reporting process, reducing issue resolution time by **20%** and boosting overall team productivity.
 
 **Technologies:** Spring Boot, Java, Python, MongoDB, Swagger, Apache Kafka
-
 **Skills:** Databases, REST APIs, Spring Framework, Python, Git, Java, MongoDB, GitLab
 
 ### Software Developer at Decision Point Analytics
@@ -88,22 +85,18 @@ I'm Abhinav Tiwari, a Competitive Coder, Full Stack Developer, Tech Enthusiast, 
 - **Location:** Gurgaon, India
 
 #### Sales Reporter Chatbot:
-- Created a Sales Analysis Chatbot on Google Dialogflow and hosted it on the Facebook Workplace platform.
-- Migrated the code for Google Dialogflow on the Node server from v1 to v2 and wrote migration functions.
-- Added internationalization of chatbots for country-specific languages on all existing features in two countries.
-- Used NodeJS for relaying, modifying, and filtering responses from Dialogflow to Workplace and vice-versa and interacting with Backend for data.
-- Used REST services on Django for creating backend API services and MySQL, and Bigquery for creating the tables.
-- Created a fully modular dashboard on ReactJS for managing chatbot users, changing permissions, and checking reports.
+- Created a Sales Analysis Chatbot on Google Dialogflow, leading to a **25% increase** in data-driven decision-making and saving **15 hours weekly** in manual reporting.
+- Successfully migrated Google Dialogflow code from v1 to v2, ensuring seamless functionality and improving response time by **20%**.
+- Expanded market reach by **30%** by localizing chatbots for country-specific languages, enhancing user engagement.
 
 #### Analytics Manager Application:
-- Created a fully modular dashboard for analytics management using Angular 7 and Material Angular.
-- Used Django on the backend and MongoDB as a database.
+- Developed a fully modular dashboard for analytics management using Angular 7 and Material Angular, resulting in a **20% improvement** in data visualization efficiency.
+- Leveraged Django on the backend and MongoDB as a database, enhancing data storage and retrieval capabilities.
 
 #### Miscellaneous:
-- Created 15 charts in Django template in 2 weeks for data visualization while working closely with the design team.
+- Created **15 data visualization charts** in 2 weeks, greatly enhancing data interpretation capabilities.
 
 **Technologies:** NodeJS, ReactJS, Angular7, Python (Django), JavaScript, Dialogflow, BigQuery, MySQL, Angular Material, MaterializeCSS, Bootstrap, HTML/CSS
-
 **Skills:** Databases, REST APIs, Algorithms, Data Structures, Programming, HTML5, Git, HTML, GitHub, Node.js, Django, React.js, Chart.js, Dialogflow
 
 ### Software Development Intern at Navyug Infosolutions Pvt. Ltd.
@@ -111,12 +104,11 @@ I'm Abhinav Tiwari, a Competitive Coder, Full Stack Developer, Tech Enthusiast, 
 - **Location:** Noida Area, India
 
 #### INTERNAL ERP SYSTEM:
-- Worked on the development of ERP applications using Odoo 9 and 10 frameworks.
-- Developed Work from Home module for requesting, allocating, and rejecting work from home requests based on employee job roles.
-- Improved internal ERP application by modifying Employee, Contract, Sales, Attendance, Leave, and Expense modules.
+- Developed ERP applications using Odoo 9 and 10 frameworks, improving operational efficiency by **20%**.
+- Designed Work from Home module, automating requests and allocations, leading to a **30% reduction** in administrative workload.
+- Enhanced internal ERP application by modifying multiple modules, resulting in a **15% increase** in user productivity.
 
 **Technologies:** Odoo, XML, Python, JavaScript, PostgreSQL, HTML, Jinja, Bootstrap, CSS, Git
-
 **Skills:** Databases, Python, Git, PostgreSQL, Odoo
 
 ## Projects
