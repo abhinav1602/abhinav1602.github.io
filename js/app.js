@@ -27,7 +27,15 @@ themeToggle?.addEventListener("click", () => {
   applyTheme(root.dataset.theme === "light" ? "dark" : "light");
 });
 
-navToggle?.addEventListener("click", () => {
+function closeNav() {
+  if (navPanel?.classList.contains("is-open")) {
+    navPanel.classList.remove("is-open");
+    navToggle?.setAttribute("aria-expanded", "false");
+  }
+}
+
+navToggle?.addEventListener("click", (e) => {
+  e.stopPropagation();
   const isOpen = navPanel?.classList.toggle("is-open") || false;
   navToggle.setAttribute("aria-expanded", String(isOpen));
 });
@@ -35,8 +43,22 @@ navToggle?.addEventListener("click", () => {
 navPanel?.addEventListener("click", (event) => {
   const target = event.target;
   if (target instanceof HTMLAnchorElement) {
-    navPanel.classList.remove("is-open");
-    navToggle?.setAttribute("aria-expanded", "false");
+    closeNav();
+  }
+});
+
+document.addEventListener("click", (event) => {
+  if (navPanel?.classList.contains("is-open")) {
+    const isClickInside = navPanel.contains(event.target) || navToggle?.contains(event.target);
+    if (!isClickInside) {
+      closeNav();
+    }
+  }
+});
+
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape") {
+    closeNav();
   }
 });
 
